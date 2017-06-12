@@ -1,0 +1,5 @@
+<table class="grid">
+  <tr *ngFor="let row of currentMap.tiles" class="row">
+    <td *ngFor="let cell of row" [class]="cell.cssClass"></td>
+  </tr>
+</table>

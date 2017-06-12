@@ -1,0 +1,84 @@
+.grid td {
+  background-image: url('assets/sprites.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+}
+
+table.grid {
+    border-spacing: 0;
+}
+
+table.grid td {
+    min-width: 16px;
+    min-height: 16px;
+    max-width: 16px;
+    max-height: 16px;
+    border: 0;
+    border-spacing: 0;
+    padding: 0;
+}
+
+.tileLeft {background-position: -96px -112px;}
+.tileR {background-position: -80px -96px;}
+.tileS {background-position: -96px -96px;}
+.tileT {background-position: -112px -96px;}
+.tileU {background-position: 0px -112px;}
+.tileV {background-position: -16px -112px;}
+.tileW {background-position: -32px -112px;}
+.tileX {background-position: -48px -112px;}
+.tileY {background-position: -64px -112px;}
+.tileZ {background-position: -80px -112px;}
+.tileRight {background-position: -112px -112px;}
+.tileForest {background-position: 0px 0px;}
+.tileThief {background-position: -48px -48px;}
+.tileGrass {background-position: -16px 0px;}
+.tileWizard {background-position: -64px -48px;}
+.tileHorse {background-position: -32px 0px;}
+.tileMountain {background-position: -80px -48px;}
+.tileShip {background-position: -48px 0px;}
+.tileSwamp {background-position: -96px -48px;}
+.tileWater {background-position: -64px 0px;}
+.tileEmpty {background-position: -112px -48px;}
+.tileRocket {background-position: -96px 0px;}
+.tileBlock {background-position: 0px -64px;}
+.tileCastle {background-position: -112px 0px;}
+.tileBricks {background-position: -16px -64px;}
+.tileVillage {background-position: 0px -16px;}
+.tileMiddle {background-position: -32px -64px;}
+.tileTower {background-position: -16px -16px;}
+.tileA {background-position: -48px -64px;}
+.tileDungeon {background-position: -32px -16px;}
+.tileB {background-position: -64px -64px;}
+.tileMoongate {background-position: -48px -16px;}
+.tileC {background-position: -80px -64px;}
+.tileTown {background-position: -64px -16px;}
+.tileD {background-position: -96px -64px;}
+.tileShield {background-position: -80px -16px;}
+.tileE {background-position: -112px -64px;}
+.tileSword {background-position: -96px -16px;}
+.tileF {background-position: 0px -80px;}
+.tileSign {background-position: -112px -16px;}
+.tileFire {background-position: -16px -80px;}
+.tileG {background-position: 0px -32px;}
+.tileBalroc {background-position: -32px -80px;}
+.tileH {background-position: -16px -32px;}
+.tileAirplane {background-position: -48px -80px;}
+.tileCleric {background-position: -32px -32px;}
+.tileI {background-position: -64px -80px;}
+.tileDaemon {background-position: -48px -32px;}
+.tileJ {background-position: -80px -80px;}
+.tileDevil {background-position: -64px -32px;}
+.tileK {background-position: -96px -80px;}
+.tileFighter {background-position: -80px -32px;}
+.tileL {background-position: -112px -80px;}
+.tileGuard {background-position: -96px -32px;}
+.tileM {background-position: 0px -96px;}
+.tileJester {background-position: -112px -32px;}
+.tileN {background-position: -16px -96px;}
+.tileKing {background-position: 0px -48px;}
+.tileO {background-position: -32px -96px;}
+.tileMerchant {background-position: -16px -48px;}
+.tileP {background-position: -48px -96px;}
+.tileOrc {background-position: -32px -48px;}
+.tileQ {background-position: -64px -96px;}
