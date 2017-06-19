@@ -1,0 +1,10 @@
+div {
+    width: 1024px;
+    height: 60px;
+    padding: 5px;
+    margin: 5px;
+    background: black; 
+    color: lightgray;
+    overflow-y: scroll;
+    font-family: consolas, 'Lucida Console', monospace
+}

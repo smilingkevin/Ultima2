@@ -3,6 +3,7 @@ import { createStore, Store } from 'redux';
 import { MainGame } from './world/mainGame';
 import { mainReducer } from './reducers/reducer.main';
 import { createAction } from './actions/createAction';
+import { ConsoleComponent } from './console/console.component';
 
 @Component({
   selector: 'ultima2-app',
@@ -25,3 +26,4 @@ export class Ultima2Component {
     this.store.dispatch(createAction(this.store.getState(), action));
   }
 }
+  

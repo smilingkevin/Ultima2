@@ -59,101 +59,101 @@ export class MapService {
       case "H":
         return new MapTile(MapTileType.Wall, "Village");
       case "i":
-        return new MapTile(MapTileType.Wall, "Middle");
+        return new MapTile(MapTileType.Wall, "BlockMiddle");
       case "I":
         return new MapTile(MapTileType.Wall, "Tower");
       case "j":
-        return new MapTile(MapTileType.Wall, "A");
+        return new MapTile(MapTileType.Wall, "BlockA");
       case "J":
         return new MapTile(MapTileType.Wall, "Dungeon");
       case "k":
-        return new MapTile(MapTileType.Wall, "B");
+        return new MapTile(MapTileType.Wall, "BlockB");
       case "K":
         return new MapTile(MapTileType.Wall, "Moongate");
       case "l":
-        return new MapTile(MapTileType.Wall, "C");
+        return new MapTile(MapTileType.Wall, "BlockC");
       case "L":
         return new MapTile(MapTileType.Wall, "Town");
       case "m":
-        return new MapTile(MapTileType.Wall, "D");
+        return new MapTile(MapTileType.Wall, "BlockD");
       case "M":
         return new MapTile(MapTileType.Wall, "Shield");
       case "n":
-        return new MapTile(MapTileType.Wall, "E");
+        return new MapTile(MapTileType.Wall, "BlockE");
       case "N":
         return new MapTile(MapTileType.Wall, "Sword");
       case "o":
-        return new MapTile(MapTileType.Wall, "F");
+        return new MapTile(MapTileType.Wall, "BlockF");
       case "O":
         return new MapTile(MapTileType.Wall, "Sign");
       case "P":
         return new MapTile(MapTileType.Wall, "Fire");
       case "p":
-        return new MapTile(MapTileType.Wall, "G");
+        return new MapTile(MapTileType.Wall, "BlockG");
       case "Q":
         return new MapTile(MapTileType.Wall, "Balroc");
       case "q":
-        return new MapTile(MapTileType.Wall, "H");
+        return new MapTile(MapTileType.Wall, "BlockH");
       case "r":
         return new MapTile(MapTileType.Wall, "Airplane");
       case "R":
         return new MapTile(MapTileType.Wall, "Cleric");
       case "r":
-        return new MapTile(MapTileType.Wall, "I");
+        return new MapTile(MapTileType.Wall, "BlockI");
       case "S":
         return new MapTile(MapTileType.Wall, "Daemon");
       case "s":
-        return new MapTile(MapTileType.Wall, "J");
+        return new MapTile(MapTileType.Wall, "BlockJ");
       case "T":
         return new MapTile(MapTileType.Wall, "Devil");
       case "t":
-        return new MapTile(MapTileType.Wall, "K");
+        return new MapTile(MapTileType.Wall, "BlockK");
       case "U":
         return new MapTile(MapTileType.Wall, "Fighter");
       case "u":
-        return new MapTile(MapTileType.Wall, "L");
+        return new MapTile(MapTileType.Wall, "BlockL");
       case "V":
         return new MapTile(MapTileType.Wall, "Guard");
       case "v":
-        return new MapTile(MapTileType.Wall, "M");
+        return new MapTile(MapTileType.Wall, "BlockM");
       case "W":
         return new MapTile(MapTileType.Wall, "Jester");
       case "w":
-        return new MapTile(MapTileType.Wall, "N");
+        return new MapTile(MapTileType.Wall, "BlockN");
       case "X":
         return new MapTile(MapTileType.Wall, "King");
       case "x":
-        return new MapTile(MapTileType.Wall, "O");
+        return new MapTile(MapTileType.Wall, "BlockO");
       case "Y":
         return new MapTile(MapTileType.Wall, "Merchant");
       case "y":
-        return new MapTile(MapTileType.Wall, "P");
+        return new MapTile(MapTileType.Wall, "BlockP");
       case "Z":
         return new MapTile(MapTileType.Wall, "Orc");
       case "z":
-        return new MapTile(MapTileType.Wall, "Q");
+        return new MapTile(MapTileType.Wall, "BlockQ");
       case "0":
-        return new MapTile(MapTileType.Wall, "Left");
+        return new MapTile(MapTileType.Wall, "BlockLeft");
       case "1":
-        return new MapTile(MapTileType.Wall, "R");
+        return new MapTile(MapTileType.Wall, "BlockR");
       case "2":
-        return new MapTile(MapTileType.Wall, "S");
+        return new MapTile(MapTileType.Wall, "BlockS");
       case "3":
-        return new MapTile(MapTileType.Wall, "T");
+        return new MapTile(MapTileType.Wall, "BlockT");
       case "4":
-        return new MapTile(MapTileType.Wall, "U");
+        return new MapTile(MapTileType.Wall, "BlockU");
       case "5":
-        return new MapTile(MapTileType.Wall, "V");
+        return new MapTile(MapTileType.Wall, "BlockV");
       case "6":
-        return new MapTile(MapTileType.Wall, "W");
+        return new MapTile(MapTileType.Wall, "BlockW");
       case "7":
-        return new MapTile(MapTileType.Wall, "X");
+        return new MapTile(MapTileType.Wall, "BlockX");
       case "8":
-        return new MapTile(MapTileType.Wall, "Y");
+        return new MapTile(MapTileType.Wall, "BlockY");
       case "9":
-        return new MapTile(MapTileType.Wall, "Z");
+        return new MapTile(MapTileType.Wall, "BlockZ");
       case "=":
-        return new MapTile(MapTileType.Wall, "Right");
+        return new MapTile(MapTileType.Wall, "BlockRight");
      default:
         return null;
     }

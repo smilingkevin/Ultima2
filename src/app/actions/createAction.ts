@@ -25,6 +25,11 @@ export interface IActionCreator {
     (mainGame: MainGame, actionText: string): Action;
 }
 
+export interface ITextAction extends Action {
+    type: string;
+    text: string;
+}
+
 export const createAction: IActionCreator = (mainGame: MainGame, actionText: string) => {
 
     let text = actionText.toLowerCase().trim();

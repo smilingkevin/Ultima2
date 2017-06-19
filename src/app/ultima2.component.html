@@ -2,6 +2,8 @@
   {{title}}
 </h1>
 
+<console [list]="console"></console>
+<parser (action)="handleAction($event)"></parser>
 <app-screen>
   Please stand by...
 </app-screen>

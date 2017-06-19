@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { Ultima2Component } from './ultima2.component';
 import { ScreenComponent } from './screen/screen.component';
 import { MapService } from './map/map.service';
+import { ParserComponent } from './parser/parser.component';
+import { ConsoleComponent } from './console/console.component';
 
 @NgModule({
   declarations: [
     Ultima2Component,
     ScreenComponent,
-    ScreenComponent
+    ScreenComponent,
+    ParserComponent,
+    ConsoleComponent
   ],
   imports: [
     BrowserModule,
